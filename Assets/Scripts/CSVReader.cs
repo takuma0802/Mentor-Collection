@@ -7,11 +7,11 @@ public class CSVReader : MonoBehaviour
 	//public TextAsset csvFile; 
 	public void Start()
 	{
-		var csvFile = Resources.Load("CSV/Character.csv") as TextAsset;
-		string[,] grid = SplitCsvGrid(csvFile.text);
-		Debug.Log ("size = " + (1 + grid.GetUpperBound (0)) + "," + (1 + grid.GetUpperBound (1)));
+		//var csvFile = Resources.Load("CSV/Character.csv") as TextAsset;
+		//string[,] grid = SplitCsvGrid(csvFile.text);
+		//Debug.Log ("size = " + (1 + grid.GetUpperBound (0)) + "," + (1 + grid.GetUpperBound (1)));
 
-		DebugOutputGrid(grid); 
+		//DebugOutputGrid(grid); 
 	}
 
 	// splits a CSV file into a 2D string array
@@ -34,14 +34,13 @@ public class CSVReader : MonoBehaviour
 			string[] row = SplitCsvLine( lines[y] ); 
 			for (int x = 0; x < row.Length; x++) 
 			{
-				outputGrid[x,y] = row[x]; 
+				outputGrid[x,y] = row[x];
 
 				// This line was to replace "" with " in my output. 
 				// Include or edit it as you wish.
 				outputGrid[x,y] = outputGrid[x,y].Replace("\"\"", "\"");
 			}
 		}
-
 		return outputGrid; 
 	}
 
@@ -54,18 +53,19 @@ public class CSVReader : MonoBehaviour
 			select m.Groups[1].Value).ToArray();
 	}
 
-	// outputs the content of a 2D array, useful for checking the importer
-	static public void DebugOutputGrid(string[,] grid)
-	{
-		string textOutput = ""; 
-		for (int y = 0; y < grid.GetUpperBound(1); y++) {	
-			for (int x = 0; x < grid.GetUpperBound(0); x++) {
 
-				textOutput += grid[x,y]; 
-				textOutput += "|"; 
-			}
-			textOutput += "\n"; //"\nは改行の意味"
-		}
-		Debug.Log(textOutput);
-	}
+	// outputs the content of a 2D array, useful for checking the importer
+	//static public void DebugOutputGrid(string[,] grid)
+	//{
+	//	string textOutput = ""; 
+	//	for (int y = 0; y < grid.GetUpperBound(1); y++) {	
+	//		for (int x = 0; x < grid.GetUpperBound(0); x++) {
+	//
+	//			textOutput += grid[x,y]; 
+	//			textOutput += "|"; 
+	//		}
+	//		textOutput += "\n"; //"\nは改行の意味"
+	//	}
+	//	Debug.Log(textOutput);
+	//}
 }
