@@ -14,8 +14,8 @@ public class BasePopupController : MonoBehaviour, IPopupController
     protected virtual void OnCloseAfterActive() { }
 
     private Animator _animator;
-    private UnityEngine.Events.UnityAction m_OnOpenFinish;
-    private UnityEngine.Events.UnityAction m_OnCloseFinish;
+    private UnityAction m_OnOpenFinish;
+    private UnityAction m_OnCloseFinish;
 
     private void SetUp()
     {
@@ -49,7 +49,7 @@ public class BasePopupController : MonoBehaviour, IPopupController
     
     private void OnCloseFinish()
     {
-        PopUpManager.instance.RemoveLastPopup();
+        PopupManager.instance.RemoveLastPopup();
         if (m_OnCloseFinish != null)
         {
             m_OnCloseFinish();

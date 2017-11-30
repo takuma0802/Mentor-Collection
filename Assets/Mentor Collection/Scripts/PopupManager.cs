@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class PopupManager : SingletonMonoBehaviour<PopupManager>
 {
-    [SerializeField] private GameObject _commonPopup;
+    [SerializeField] private GameObject _commonPopup, _discriptionPopup;
     private List<IPopupController> _popupList = new List<IPopupController>();
     
     public bool IsOpened
@@ -23,6 +23,15 @@ public class PopupManager : SingletonMonoBehaviour<PopupManager>
         var popup = CreatePopup(_commonPopup);
         var popupController = popup.GetComponent<CommonPopupController>();
         popupController.SetValue(message, onCloseFinish);
+        _popupList.Add(popupController);
+        popupController.Open(null);
+    }
+
+    public void OpenDiscription(Character data, UnityAction onCloseFinish = null)
+    {
+        var popup = CreatePopup(_discriptionPopup);
+        var popupController = popup.GetComponent<DiscriptionPopupController>();
+        popupController.SetValue(data, onCloseFinish);
         _popupList.Add(popupController);
         popupController.Open(null);
     }

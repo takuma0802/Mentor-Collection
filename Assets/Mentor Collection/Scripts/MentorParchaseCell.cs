@@ -48,6 +48,7 @@ public class MentorParchaseCell : MonoBehaviour
 			var chara = user.NewCharacter(_characterData);
 			PortrateUIManager.instance.MentorTrainingView.AddCharacter(chara);
 			AvatarManager.instance.SpawnAvatar(chara);
+			if(!PopupManager.instance.IsOpened) PopupManager.instance.OpenCommon(_characterData.Name + "が入社しました！");
 		});
 
 		user.Money.Subscribe(value =>

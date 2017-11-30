@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using UniRx;
 
@@ -28,6 +29,10 @@ public class GameManager
 			});
 
 		_userData.Money.Subscribe(_ => { Save(); });
+		Observable
+			.Interval(TimeSpan.FromSeconds(1))
+			.Subscribe(_ => _userData.AutoAddMoney())
+			.AddTo(this);
 	}
 
 	public void Save()
