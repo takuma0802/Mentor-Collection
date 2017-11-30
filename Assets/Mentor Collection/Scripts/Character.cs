@@ -9,6 +9,14 @@ public class Character
 
 	[SerializeField] private int _uniqueId, _masterId, _level;
 	
+	// コンストラクタ
+	public Character (int uniqueId,MstCharacter data)
+	{
+		_uniqueId = uniqueId;
+		_level = 1;
+		_masterId = data.ID;
+	}
+	
 	public int UniqueId
 	{
 		get { return _uniqueId; }
@@ -39,13 +47,6 @@ public class Character
 			int power = Master.LowerEnergy + ((_level - 1) * (Master.UpperEnergy - Master.LowerEnergy) / (Master.MaxLebel - 1));
 			return power;
 		}
-	}
-
-	public Character (int uniqueId,MstCharacter data)
-	{
-		_uniqueId = uniqueId;
-		_level = 1;
-		_masterId = data.ID;
 	}
 
 	public bool IsLevelMax

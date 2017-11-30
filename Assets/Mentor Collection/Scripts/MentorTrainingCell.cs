@@ -22,8 +22,6 @@ public class MentorTrainingCell : MonoBehaviour
 	public void SetValue(Character data)
 	{
 		var master = data.Master;
-//		print(data);
-//		print(data.Master);
 		_characterData = data;
 		_faceImage.sprite = Resources.Load<Sprite>("Face/" + master.ImageId);
 		_nameLabel.text = master.Name;

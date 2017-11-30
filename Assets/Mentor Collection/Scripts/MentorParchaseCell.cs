@@ -12,16 +12,14 @@ public class MentorParchaseCell : MonoBehaviour
 
 	[SerializeField] private Text
 		_nameLabel,
-		_featureLabel,
 		_rarityLabel,
+		_featureLabel,
 		_productivityLabel,
 		_recruitCostLabel;
 	
 	[SerializeField] private Button _purchaseButton;
-
 	[SerializeField] private CanvasGroup _buttonGroup;
 	private bool _isSold = false;
-	
 	private MstCharacter _characterData;
 	
 	public void SetValue(MstCharacter data)
@@ -29,12 +27,9 @@ public class MentorParchaseCell : MonoBehaviour
 		_faceImage.sprite = Resources.Load<Sprite>("Face/" + data.ImageId);
 		_characterData = data;
 		_nameLabel.text = data.Name;
-		_featureLabel.text = data.FeatureText;
 		_rarityLabel.text = "";
-		for (int i = 0; i < data.Rarity; i++)
-		{
-			_rarityLabel.text += "★";
-		}
+		for (int i = 0; i < data.Rarity; i++) { _rarityLabel.text += "★"; }
+		_featureLabel.text = data.FeatureText;
 		_productivityLabel.text = "生産性(lv.1)：" + data.LowerEnergy;
 		_recruitCostLabel.text = "¥" + data.InitialCost;
 
@@ -52,6 +47,7 @@ public class MentorParchaseCell : MonoBehaviour
 			SoldView();
 			var chara = user.NewCharacter(_characterData);
 			PortrateUIManager.instance.MentorTrainingView.AddCharacter(chara);
+			AvatarManager.instance.SpawnAvatar(chara);
 		});
 
 		user.Money.Subscribe(value =>

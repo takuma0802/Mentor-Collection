@@ -5,7 +5,6 @@ using UniRx;
 public class GameManager
 	: SingletonMonoBehaviour<GameManager>
 {
-	
 	[SerializeField] private  User _userData = new User();
 
 	public User User
@@ -25,6 +24,7 @@ public class GameManager
 		MasterDataManager.instance.LoadData(() => 
 			{
 				PortrateUIManager.instance.SetUp();
+				AvatarManager.instance.SetUp();
 			});
 
 		_userData.Money.Subscribe(_ => { Save(); });

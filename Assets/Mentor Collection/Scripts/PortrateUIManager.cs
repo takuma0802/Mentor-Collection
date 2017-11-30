@@ -55,7 +55,7 @@ public class PortrateUIManager : SingletonMonoBehaviour<PortrateUIManager>
 		_dataCleaButton.onClick.AddListener(() =>
 		{
 			PlayerPrefs.DeleteAll();
-			UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+			SceneManager.LoadScene("Main");
 		});
 
 		User.Money.Subscribe(_ => { UpdateView(); });
