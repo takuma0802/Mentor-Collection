@@ -21,7 +21,7 @@ public class AvatarManager : SingletonMonoBehaviour<AvatarManager>
 	// Use this for initialization
 	void Start ()
 	{
-		_points = GameObject.FindGameObjectsWithTag("WalkPoints");
+		_points = GameObject.FindGameObjectsWithTag("WalkPoint");
 	}
 
 	public AvatarController GetAvatar(int uniqueId)
