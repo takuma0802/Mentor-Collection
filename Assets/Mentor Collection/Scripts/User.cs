@@ -32,6 +32,11 @@ public class User
         }
     }
 
+    public void AutoAddMoney()
+    {
+        _money.Value += ProductivityPerTap;
+    }
+    
     public void AddMoney(int cost)
     {
         _money.Value += cost;

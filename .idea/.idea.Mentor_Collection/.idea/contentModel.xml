@@ -542,8 +542,10 @@
             <e p="CsvReader.cs" t="Include" />
             <e p="CustomTransformOfCell.cs" t="Include" />
             <e p="DeviceManager.cs" t="Include" />
+            <e p="DiscriptionPopupController.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="IPopupController.cs" t="Include" />
+            <e p="MainCameraController.cs" t="Include" />
             <e p="MasterDataManager.cs" t="Include" />
             <e p="MentorParchaseCell.cs" t="Include" />
             <e p="MentorParchaseView.cs" t="Include" />

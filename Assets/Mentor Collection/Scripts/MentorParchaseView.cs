@@ -18,6 +18,5 @@ public class MentorParchaseView : MonoBehaviour
 			var cell = obj.GetComponent<MentorParchaseCell>();
 			cell.SetValue(c);
 		}
-		Instantiate(_mentorPurchaseCellPrefab);
 	}
 }

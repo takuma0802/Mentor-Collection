@@ -46,7 +46,15 @@ public class MentorTrainingCell : MonoBehaviour
 		
 		_descriptionButton.onClick.AddListener(() =>
 		{
-			
+			if (Avatar == null) return;
+			if(PopupManager.instance.IsOpened) return;
+			MainCameraController.instance.ToZoomIn(Avatar, () =>
+			{
+				PopupManager.instance.OpenDiscription(_characterData, () =>
+				{
+					MainCameraController.instance.ToZoomOut();
+				});
+			});
 		});
 		
 		_vrViewButton.onClick.AddListener(() =>

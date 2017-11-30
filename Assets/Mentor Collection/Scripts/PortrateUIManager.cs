@@ -59,11 +59,21 @@ public class PortrateUIManager : SingletonMonoBehaviour<PortrateUIManager>
 		});
 
 		User.Money.Subscribe(_ => { UpdateView(); });
+		
+		float time = 0.0f;
+		Observable.Interval(TimeSpan.FromSeconds(0.5f)).Subscribe(_ =>
+		{
+			time += 3.1f;
+			var color = _autoWorkLabel.color;
+			color.a = Mathf.Sin(time) * 0.5f + 0.5f;
+			_autoWorkLabel.color = color;
+		}).AddTo(this);
 	}
 
 	public void UpdateView()
 	{
 		_moneyLabel.text = String.Format("¥{0:#,0}", User.Money);
+		_autoWorkLabel.text = "+" + User.ProductivityPerTap;
 		_employeesCountLabel.text = string.Format("{0:#,0}人", User.Characters.Count);
 		_productivityLabel.text = "¥" + User.ProductivityPerTap;
 	}
@@ -91,7 +101,6 @@ public class PortrateUIManager : SingletonMonoBehaviour<PortrateUIManager>
 
 	}
 
-	
 	
 	[SerializeField] private Button _openButton;
 	[SerializeField] private Transform _mainPanel, _openPoint, _closePoint;
