@@ -33,7 +33,6 @@ public class MstCharacter
 		_initialCost = int.Parse( data[9] );
 	}
 
-
 	public int ID { get { return _id; }}
 	public int Rarity { get { return _rarity; }}
 	public int MaxLebel { get { return _maxLebel; }}

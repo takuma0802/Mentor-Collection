@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Runtime.InteropServices;
 using UniRx;
 
 [Serializable]
@@ -36,6 +37,7 @@ public class User
         _money.Value += cost;
     }
 
+    // LevelUp時にコストを消費する
     public void ConsumptionLevelUpCost(int cost)
     {
         _money.Value -= cost;
@@ -45,9 +47,8 @@ public class User
     {
         var uniqueId = (Characters.Count == 0) ? 1 : _characters[_characters.Count - 1].UniqueId + 1;
         var chara = new Character(uniqueId, data);
-        Characters.Add(chara);
+        _characters.Add(chara);
         _money.Value -= data.InitialCost;
         return chara;
-
     }
 }

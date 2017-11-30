@@ -19,7 +19,7 @@ public class ConnectionManager
 		var request = UnityWebRequest.Get(url);
 		GameManager.Log("通信開始 : " + url);
 		yield return request.Send();
-		if (!request.isError) {
+		if (!request.isNetworkError) {
 			GameManager.Log( "url:"+ url + "\nSuccess : " + request.downloadHandler.text );
 			if (onFinish != null) {
 				onFinish( request.downloadHandler.text );

@@ -18,7 +18,10 @@ public class MentorTrainingView : MonoBehaviour
 	public void SetCells()
 	{
 		var characters = GameManager.instance.User.Characters;
-		characters.ForEach(c => { CreateCell(c); });
+		characters.ForEach(c =>
+		{
+			CreateCell(c);
+		});
 	}
 
 	public void AddCharacter(Character data)

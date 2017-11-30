@@ -10,39 +10,60 @@ SingletonMonoBehaviour<MasterDataManager>
 	private List<MstCharacter> _characterTable = new List<MstCharacter>();
 	public List<MstCharacter> CharacterTable { get { return _characterTable; } }
 	
+	private bool _loadFromLocal;
+	
 	// キャラクターをIDで引っ張れるようにしておく
 	public MstCharacter GetCharacterById(int id)
 	{
-		//print(id);
-		//var aaaa = _characterTable.Find(c => c.ID == id);
-		//print(aaaa);
 		return _characterTable.Find(c => c.ID == id);
 	}
 
+	// レベルアップに必要な金額を計算
+	// 初期コストから1レベルごとに1.1倍したコストに
 	public int GetConsumptionMoney(Character data)
 	{
 		return (int) (data.Master.InitialCost * Mathf.Pow(1.1f, data.Level - 1));
 	}
 	
-	// PublishしてゲットしたURL
-	const string CsvUrl = "https://docs.google.com/spreadsheets/d/1gdQktWC2A8pLGFsz1aJDC_0YVHmbJ8o2b6HSgTVaSAQ/pub?output=csv";
+	// マスターデータのURL
+	const string CsvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTUyv7l75icxCSOSPHzyoxHA-DQoVARNQ5RusMFLLJldCG4hJwkIgG44kYjhtKVmrT9XlQg-ScXv4F3/pub?output=csv";
 
 	// GameManagerから呼んでもらう
 	public void LoadData(UnityAction onFinish)
 	{
-		ConnectionManager.instance.ConnectionAPI(
-			CsvUrl, 
-			(string result) => {
-				var csv = CsvReader.SplitCsvGrid(result);
-				for (int i=1; i<csv.GetLength(1)-1; i++) 
+		//ネットワークに接続不可な場合の処理
+		if (Application.internetReachability != NetworkReachability.NotReachable)
+		{
+			ConnectionManager.instance.ConnectionAPI(
+				CsvUrl,
+				(string result) =>
 				{
-					var data = new MstCharacter();
-					data.SetFromCsv(GetRaw(csv, i));
-					_characterTable.Add(data);
+					var csv = CSVReader.SplitCsvGrid(result);
+					for (int i = 1; i < csv.GetLength(1) - 1; i++)
+					{
+						var data = new MstCharacter();
+						data.SetFromCsv(GetRaw(csv, i));
+						_characterTable.Add(data);
+					}
+					onFinish();
 				}
-				onFinish();
-			}
-		);
+			);
+		}
+//		else
+//		{
+//			print("ネットワーク繋がってないなう");
+//			var characterCSV = Resources.Load("CSV/Character.csv") as TextAsset;
+//			print(characterCSV);
+//			var csv = CSVReader.SplitCsvGrid(characterCSV.text);
+//			print(csv[3, 3]);
+//			for (int i = 1; i < csv.GetLength(1) - 1; i++)
+//			{
+//				var data = new MstCharacter();
+//				data.SetFromCsv(GetRaw(csv, i));
+//				_characterTable.Add(data);
+//				print(_characterTable[i]);
+//			}
+//		}
 	}
 
 	private string[] GetRaw (string[,] csv, int row) {
