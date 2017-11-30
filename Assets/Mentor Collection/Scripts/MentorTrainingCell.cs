@@ -19,6 +19,11 @@ public class MentorTrainingCell : MonoBehaviour
 		get { return GameManager.instance.User; }
 	}
 
+	private AvatarController Avatar
+	{
+		get { return AvatarManager.instance.GetAvatar(_characterData.UniqueId); }
+	}
+
 	public void SetValue(Character data)
 	{
 		var master = data.Master;
@@ -46,7 +51,8 @@ public class MentorTrainingCell : MonoBehaviour
 		
 		_vrViewButton.onClick.AddListener(() =>
 		{
-			
+			if(Avatar == null) return;
+			DeviceManager.instance.ToVR(Avatar);
 		});
 
 		if (User.Money.Value < CulcLevelUpCost()) _levelUpButtonGroup.alpha = 0.5f;
