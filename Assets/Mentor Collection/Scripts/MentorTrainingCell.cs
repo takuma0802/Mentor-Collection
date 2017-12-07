@@ -57,11 +57,11 @@ public class MentorTrainingCell : MonoBehaviour
 			});
 		});
 		
-		_vrViewButton.onClick.AddListener(() =>
-		{
-			if(Avatar == null) return;
-			DeviceManager.instance.ToVR(Avatar);
-		});
+//		_vrViewButton.onClick.AddListener(() =>
+//		{
+//			if(Avatar == null) return;
+//			DeviceManager.instance.ToVR(Avatar);
+//		});
 
 		if (User.Money.Value < CulcLevelUpCost()) _levelUpButtonGroup.alpha = 0.5f;
 		User.Money.Subscribe(value =>

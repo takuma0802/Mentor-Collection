@@ -5,8 +5,7 @@ using UnityEngine;
 public class DeviceManager : SingletonMonoBehaviour<DeviceManager>
 {
 
-	[SerializeField]
-	private GameObject _mainCamera, _diveCamera, _gvrViewer;
+	[SerializeField] private GameObject _mainCamera, _diveCamera; //_gvrViewer;
 
 	private AvatarController _avatarController;
 
@@ -33,7 +32,7 @@ public class DeviceManager : SingletonMonoBehaviour<DeviceManager>
 		_diveCamera.SetActive(true);
 		if (avatar != null) _diveCamera.transform.SetParentWithReset(avatar.VRView());
 		yield return null;
-		_gvrViewer.SetActive(true);
+		//_gvrViewer.SetActive(true);
 	}
 
 	public void ToPortrate()
@@ -42,17 +41,17 @@ public class DeviceManager : SingletonMonoBehaviour<DeviceManager>
 		_mainCamera.SetActive(true);
 		_mainCamera.GetComponent<Camera>().enabled = true;
 		_diveCamera.SetActive(false);
-		_gvrViewer.SetActive(false);
+		//_gvrViewer.SetActive(false);
 		Screen.orientation = ScreenOrientation.Portrait;
 	}
 
-	private void EnableGvrView()
-	{
-		_gvrViewer.SetActive(true);
-	}
-	
-	private void UnEnableGvrView()
-	{
-		_gvrViewer.SetActive(false);
-	}
+//	private void EnableGvrView()
+//	{
+//		_gvrViewer.SetActive(true);
+//	}
+//	
+//	private void UnEnableGvrView()
+//	{
+//		_gvrViewer.SetActive(false);
+//	}
 }

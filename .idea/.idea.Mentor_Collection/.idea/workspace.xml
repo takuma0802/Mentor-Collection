@@ -2,24 +2,588 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b058d643-f6ca-4524-b04a-b57c4c530e1b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Editor.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/DemoEnvUnlitGrayscale.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/DemoEnvUnlitGrayscale.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/Materials/cubeRoomEnvMat.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/Materials/cubeRoomEnvMat.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/cubeRoom.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/cubeRoom.obj.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/cubeRoomDiffuse4096.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Environment/cubeRoomDiffuse4096.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo/Beach_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo/Beach_yellow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo/ScrollBarImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo/ScrollBarImage.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo/TileImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/ScrollingUIDemo/TileImage.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/circle.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/hollowknob.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/hollowknob.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/ic_pause_white_72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/ic_pause_white_72.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/ic_play_arrow_white_72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/ic_play_arrow_white_72.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/ic_volume_up_white_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/ic_volume_up_white_48.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/loading_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Images/VideoDemo/loading_bg.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/GVRDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/GVRDemo/CubeBlue.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/GVRDemo/CubeBlue.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/GVRDemo/CubeRed.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/GVRDemo/CubeRed.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageBlue.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageBlue.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageGreen.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageGreen.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageRed.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageRed.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageYellow.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/ScrollingUIDemo/UIImageYellow.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/MonoPanoSphereMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/MonoPanoSphereMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/StereoMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/StereoMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/StereoPanoSphereMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/StereoPanoSphereMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/VideoMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Materials/VideoDemo/VideoMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/DemoInputManager.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/DemoInputManager.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/DemoSceneManager.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/DemoSceneManager.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page1.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page1.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page2.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page2.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page3.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page3.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page4.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page4.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page5.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/Page5.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/PooledPage.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Pages/PooledPage.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabDynamic.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabDynamic.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabEffects.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabEffects.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabMasked.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabMasked.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabPooled.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabPooled.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabSimple.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/ScrollingUIDemo/Tabs/TabSimple.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/VideoDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/VideoDemo/MenuBar.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/VideoDemo/MenuBar.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/VideoDemo/VideoControls.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Prefabs/VideoDemo/VideoControls.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/README.md.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/GVRDemo.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/GVRDemo.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/PermissionsDemo.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/PermissionsDemo.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/ScrollingUIDemo.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/ScrollingUIDemo.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/VideoDemo.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scenes/VideoDemo.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/DemoInputManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/DemoInputManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/DemoSceneManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/DemoSceneManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/GVRDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/GVRDemo/GVRDemoManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/GVRDemo/GVRDemoManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/GVRDemo/Teleport.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/GVRDemo/Teleport.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/PermissionsDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Editor.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Editor/PagedScrollbarEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Editor/PagedScrollbarEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/JumpToPage.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/JumpToPage.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/ChildrenPageProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/ChildrenPageProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/IPageProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/IPageProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/PooledPageProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/PooledPageProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/PrefabPageProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PageProviders/PrefabPageProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PagedScrollBar.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PagedScrollBar.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PagedScrollRect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/PagedScrollRect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/BaseScrollEffect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/BaseScrollEffect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/BaseTile.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/BaseTile.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/FadeScrollEffect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/FadeScrollEffect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/FloatTile.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/FloatTile.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/MaskedTile.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/MaskedTile.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/ScaleScrollEffect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/ScaleScrollEffect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/TileScrollEffect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/TileScrollEffect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/TiledPage.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/TiledPage.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/TranslateScrollEffect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/PaginatedScrolling/ScrollEffects/TranslateScrollEffect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/GameObjectPool.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/GameObjectPool.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/GameObjectPoolController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/GameObjectPoolController.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/IObjectPool.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/IObjectPool.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/ObjectPool.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/ObjectPool.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/ObjectPoolManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Pooling/ObjectPoolManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Tabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Tabs/Tab.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Tabs/Tab.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Tabs/TabGroup.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Tabs/TabGroup.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions/IUITransition.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions/IUITransition.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions/UIFadeTransition.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions/UIFadeTransition.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/GVRDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/GVRDemo/GVRDemoAmbientOcclusion.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/GVRDemo/GVRDemoAmbientOcclusion.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/GVRDemo/GVRDemoUnlitGrayscaleToColor.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/GVRDemo/GVRDemoUnlitGrayscaleToColor.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/VideoDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/VideoDemo/VideoDemoInsideShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/VideoDemo/VideoDemoInsideShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/VideoDemo/VideoDemoStereoShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Shaders/VideoDemo/VideoDemoStereoShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/GVRDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/GVRDemo/CubeSound.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/GVRDemo/CubeSound.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/btn_click.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/btn_click.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/btn_click_important.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/btn_click_important.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/btn_hover1.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/btn_hover1.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/card_hover1.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/card_hover1.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/swipe_left.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/swipe_left.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/swipe_right.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Sounds/ScrollingUIDemo/swipe_right.wav.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Textures/GVRDemo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Textures/GVRDemo/bigCube_solid.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Textures/GVRDemo/bigCube_solid.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Textures/GVRDemo/bigCube_translucent.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Demos/Textures/GVRDemo/bigCube_translucent.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Distortion.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Distortion/GvrDistortion.cginc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Distortion/GvrDistortion.cginc.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioListenerEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioListenerEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioRoomEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioRoomEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioSoundfieldEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioSoundfieldEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioSourceEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Audio/GvrAudioSourceEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Controller/GvrTooltipEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/Controller/GvrTooltipEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/EventSystem.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrBuildProcessor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrBuildProcessor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrCompatibilityChecker.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrCompatibilityChecker.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrEditorSettings.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrEditorSettings.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrMenu.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrMenu.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrViewerEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Editor/GvrViewerEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Fonts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Fonts/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Fonts/Roboto-Medium.ttf.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/GVRBackwardsCompatibility.unitypackage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/GVRBackwardsCompatibility.unitypackage.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/GVRVideoPlayer.unitypackage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/GVRVideoPlayer.unitypackage.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/GVRiOSNativeCompatibility.unitypackage" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/GVRiOSNativeCompatibility.unitypackage.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/LICENSE.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Editor.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Editor/GvrGazeEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Editor/GvrGazeEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Editor/StereoControllerEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Editor/StereoControllerEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrAdapter.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrAdapter.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrHead.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrHead.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrMain.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrMain.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrManager.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Prefabs/GvrManager.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/README.md.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Resources.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Resources/SolidColor.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Resources/SolidColor.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Resources/UnlitTexture.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Resources/UnlitTexture.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/GvrHead.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/GvrHead.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrCameraUtils.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrCameraUtils.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrEye.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrEye.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrPostRender.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrPostRender.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrPreRender.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrPreRender.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrProfile.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/GvrProfile.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/StereoController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/StereoController.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/StereoRenderEffect.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/StereoRenderEffect.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/AndroidDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/AndroidDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseAndroidDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseAndroidDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseVRDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseVRDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/EditorDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/EditorDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/GvrDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/GvrDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/UnityVRDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/UnityVRDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/iOSDevice.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/Internal/VRDevices/iOSDevice.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI/GvrGaze.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI/GvrGaze.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI/GvrReticle.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI/GvrReticle.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI/IGvrGazeResponder.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Legacy/Scripts/UI/IGvrGazeResponder.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorAlmostFull.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorAlmostFull.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorCharging.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorCharging.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorCriticalLow.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorCriticalLow.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorFull.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorFull.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorLow.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorLow.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorMedium.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorMedium.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorUnknown.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/BatteryIndicatorUnknown.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_app.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_app.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_idle.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_idle.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_reticle.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_reticle.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_system.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_system.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_touchpad.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/ControllerMaterial_touchpad.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/GvrReticleMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/GvrReticleMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/TooltipFont.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/TooltipFont.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/TooltipImage.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/TooltipImage.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/laserMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/laserMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/touchOpaque.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/touchOpaque.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/touchTransparent.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Materials/touchTransparent.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Models.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Models/ddcontroller.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Models/ddcontroller.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio/GvrAudioRoom.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio/GvrAudioRoom.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio/GvrAudioSoundfield.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio/GvrAudioSoundfield.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio/GvrAudioSource.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Audio/GvrAudioSource.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Controller/GvrControllerMain.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/GvrViewerMain.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/GvrViewerMain.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI/GvrControllerPointer.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI/GvrControllerPointer.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI/GvrEventSystem.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI/GvrEventSystem.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI/GvrReticlePointer.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/UI/GvrReticlePointer.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Utilities.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Utilities/GvrFPSCanvas.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Prefabs/Utilities/GvrFPSCanvas.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/README.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Resources.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Resources/GvrAudioMixer.mixer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Resources/GvrAudioMixer.mixer.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudio.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudio.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioListener.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioListener.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioRoom.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioRoom.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioSoundfield.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioSoundfield.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioSource.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Audio/GvrAudioSource.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrArmModel.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrArmModel.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrArmModelOffsets.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrArmModelOffsets.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrBatteryIndicator.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrBatteryIndicator.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrController.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrControllerVisual.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrControllerVisual.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrControllerVisualManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrControllerVisualManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrPointerManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrPointerManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrTooltip.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/GvrTooltip.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerState.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/ControllerState.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerInputModule.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerInputModule.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/GvrSettings.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/GvrSettings.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/GvrUnitySdkVersion.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/GvrUnitySdkVersion.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/GvrViewer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/GvrViewer.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Permissions.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Pose3D.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Pose3D.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrBaseControllerVisual.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrBaseControllerVisual.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrDropdown.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrDropdown.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrLaserPointer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrLaserPointer.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrLaserPointerImpl.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrLaserPointerImpl.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrReticlePointer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrReticlePointer.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrReticlePointerImpl.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrReticlePointerImpl.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrTouchPoint.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/UI/GvrTouchPoint.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrFPS.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrFPS.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrIntent.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrIntent.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Video.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrAdditiveOverlay.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrAdditiveOverlay.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrReticleShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrReticleShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUIOverlay.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUIOverlay.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUIOverlayFont.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUIOverlayFont.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnityCompatibility.cginc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnityCompatibility.cginc.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnlitTransparentOverlay.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Shaders/GvrUnlitTransparentOverlayColor.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_almost_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_almost_full.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_charging.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_charging.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_critical_low.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_critical_low.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_full.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_low.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_low.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_medium.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_unknown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/battery_indicator_unknown.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_grab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_grab.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_move.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_move.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_pointer.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_text.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_url.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/cursor_url.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_app.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_idle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_idle.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_system.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_touchpad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/ddcontroller_touchpad.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/dropShadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/dropShadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/laserTexture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/laserTexture.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/touchTexture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Asset Stores/GoogleVR/Textures/touchTexture.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS.meta" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Mentor_Collection/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Mentor_Collection/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Mentor_Collection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Mentor_Collection/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Prefabs/Avatar.prefab" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Prefabs/Avatar.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Prefabs/MentorParchaseCell.prefab" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Prefabs/MentorParchaseCell.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Animation/CommonPopup/Close.anim" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Animation/CommonPopup/Close.anim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Animation/CommonPopup/Open.anim" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Animation/CommonPopup/Open.anim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scene/Main.unity" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scene/Main.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/BasePopupController.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/BasePopupController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseCell.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseCell.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseView.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseView.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PopupManager.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PopupManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs" afterPath="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/CardboardSDK.bundle.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/CardboardSDK.bundle.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GoogleKitCore.bundle.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/GoogleKitCore.bundle.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GoogleKitDialogs.bundle.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/GoogleKitDialogs.bundle.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GoogleKitHUD.bundle.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/GoogleKitHUD.bundle.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/MaterialRobotoFontLoader.bundle.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/MaterialRobotoFontLoader.bundle.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,23 +597,62 @@
       <file leaf-file-name="MentorTrainingCell.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="477">
+              <caret line="63" column="11" lean-forward="false" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
               <folding>
-                <marker date="1512070986904" expanded="false" signature="6:151" ph="..." />
-                <marker date="1512070986904" expanded="true" signature="200:2573" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="554:604" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="638:720" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="759:1928" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1078:1286" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1338:1617" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1475:1611" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1544:1604" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1664:1742" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1855:1923" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="1960:2039" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="2069:2571" ph="{...}" />
-                <marker date="1512070986904" expanded="true" signature="2481:2567" ph="{...}" />
+                <marker date="1512080752367" expanded="false" signature="6:151" ph="..." />
+                <marker date="1512080752367" expanded="true" signature="200:2583" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="554:604" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="638:720" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="759:1938" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="1078:1286" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="1338:1617" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="1475:1611" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="1544:1604" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="1623:1754" ph="/* _vrViewButton.onClick.AddListener(() =&gt; ... */" />
+                <marker date="1512080752367" expanded="true" signature="1627:1754" ph="..." />
+                <marker date="1512080752367" expanded="true" signature="1865:1933" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="1970:2049" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="2079:2581" ph="{...}" />
+                <marker date="1512080752367" expanded="true" signature="2491:2577" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvatarManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/AvatarManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <marker date="1512057492595" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512057492595" expanded="true" signature="146:1366" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="521:615" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="663:729" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="779:848" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="871:913" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="952:1116" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="1044:1113" ph="{...}" />
+                <marker date="1512057492595" expanded="true" signature="1158:1364" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <marker date="1512080723781" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512080723781" expanded="true" signature="146:1451" ph="{...}" />
+                <marker date="1512080723781" expanded="true" signature="294:493" ph="{...}" />
+                <marker date="1512080723781" expanded="true" signature="544:591" ph="{...}" />
+                <marker date="1512080723781" expanded="true" signature="652:995" ph="{...}" />
+                <marker date="1512080723781" expanded="true" signature="1022:1293" ph="{...}" />
+                <marker date="1512080723781" expanded="true" signature="1295:1449" ph="/* private void EnableGvrView() ... */" />
               </folding>
             </state>
           </provider>
@@ -58,19 +661,18 @@
       <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="450">
               <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding>
-                <marker date="1512072357297" expanded="false" signature="6:162" ph="..." />
-                <marker date="1512072357297" expanded="true" signature="196:1348" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="368:439" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="482:571" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="606:744" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="624:738" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="776:832" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="872:914" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="989:1031" ph="{...}" />
-                <marker date="1512072357297" expanded="true" signature="1085:1346" ph="{...}" />
+                <marker date="1512079669693" expanded="false" signature="6:162" ph="..." />
+                <marker date="1512079669693" expanded="true" signature="368:439" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="482:571" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="606:744" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="624:738" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="776:832" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="872:914" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="989:1031" ph="{...}" />
+                <marker date="1512079669693" expanded="true" signature="1085:1346" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,44 +681,43 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="465">
               <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
-                <marker date="1512072506124" expanded="true" signature="6:71" ph="..." />
-                <marker date="1512072506124" expanded="true" signature="136:927" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="213:247" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="315:736" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="353:436" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="484:570" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="757:827" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="866:925" ph="{...}" />
-                <marker date="1512072506124" expanded="true" signature="895:922" ph="{...}" />
+                <marker date="1512079669688" expanded="false" signature="6:71" ph="..." />
+                <marker date="1512079669688" expanded="true" signature="136:927" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="213:247" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="315:736" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="353:436" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="484:570" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="757:827" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="866:925" ph="{...}" />
+                <marker date="1512079669688" expanded="true" signature="895:922" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortrateUIManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PortrateUIManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="870">
               <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding>
-                <marker date="1512073848607" expanded="false" signature="6:181" ph="..." />
-                <marker date="1512073848607" expanded="true" signature="257:3463" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="439:483" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="530:574" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="871:919" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="941:1743" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="1055:1133" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="1197:1327" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="1376:1447" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="1587:1726" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="1770:2030" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="2076:2608" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="2214:2604" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="2858:3461" ph="{...}" />
-                <marker date="1512073848607" expanded="true" signature="3322:3458" ph="{...}" />
+                <marker date="1512079669692" expanded="false" signature="6:181" ph="..." />
+                <marker date="1512079669692" expanded="true" signature="439:483" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="530:574" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="871:919" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="941:1743" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="1055:1133" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="1197:1327" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="1376:1447" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="1587:1726" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="1770:2030" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="2076:2608" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="2214:2604" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="2858:3461" ph="{...}" />
+                <marker date="1512079669692" expanded="true" signature="3322:3458" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -162,7 +763,6 @@
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MasterDataManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/VRUIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/AvatarManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/IPopupController.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/CommonPopupController.cs" />
@@ -170,12 +770,13 @@
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PopupManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MainCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/BasePopupController.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs" />
       </list>
     </option>
   </component>
@@ -255,11 +856,12 @@
       <workItem from="1512038291328" duration="9080000" />
       <workItem from="1512050097951" duration="5578000" />
       <workItem from="1512064384363" duration="6623000" />
+      <workItem from="1512080635997" duration="544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21478000" />
+    <option name="totallyTimeSpent" value="22022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,6 +874,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="724" y="22" width="664" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -306,25 +909,109 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <marker date="1512079669693" expanded="false" signature="6:162" ph="..." />
+            <marker date="1512079669693" expanded="true" signature="368:439" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="482:571" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="606:744" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="624:738" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="776:832" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="872:914" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="989:1031" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="1085:1346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <marker date="1512079669688" expanded="false" signature="6:71" ph="..." />
+            <marker date="1512079669688" expanded="true" signature="136:927" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="213:247" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="315:736" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="353:436" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="484:570" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="757:827" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="866:925" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="895:922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <marker date="1512079669692" expanded="false" signature="6:181" ph="..." />
+            <marker date="1512079669692" expanded="true" signature="439:483" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="530:574" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="871:919" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="941:1743" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1055:1133" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1197:1327" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1376:1447" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1587:1726" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1770:2030" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2076:2608" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2214:2604" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2858:3461" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="3322:3458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <marker date="1512080752367" expanded="false" signature="6:151" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="200:2583" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="554:604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="638:720" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="759:1938" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1078:1286" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1338:1617" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1475:1611" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1544:1604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1623:1754" ph="/* _vrViewButton.onClick.AddListener(() =&gt; ... */" />
+            <marker date="1512080752367" expanded="true" signature="1627:1754" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="1865:1933" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1970:2049" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2079:2581" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2491:2577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512070986904" expanded="false" signature="6:151" ph="..." />
-            <marker date="1512070986904" expanded="true" signature="200:2573" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="554:604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="638:720" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="759:1928" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1078:1286" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1338:1617" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1475:1611" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1544:1604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1664:1742" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1855:1923" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1960:2039" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2069:2571" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2481:2567" ph="{...}" />
+            <marker date="1512080752367" expanded="false" signature="6:151" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="200:2583" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="554:604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="638:720" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="759:1938" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1078:1286" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1338:1617" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1475:1611" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1544:1604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1623:1754" ph="/* _vrViewButton.onClick.AddListener(() =&gt; ... */" />
+            <marker date="1512080752367" expanded="true" signature="1627:1754" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="1865:1933" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1970:2049" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2079:2581" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2491:2577" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -352,15 +1039,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512072506124" expanded="true" signature="6:71" ph="..." />
-            <marker date="1512072506124" expanded="true" signature="136:927" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="213:247" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="315:736" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="353:436" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="484:570" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="757:827" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="866:925" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="895:922" ph="{...}" />
+            <marker date="1512079669688" expanded="false" signature="6:71" ph="..." />
+            <marker date="1512079669688" expanded="true" signature="136:927" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="213:247" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="315:736" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="353:436" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="484:570" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="757:827" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="866:925" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="895:922" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -369,17 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <marker date="1512071160307" expanded="false" signature="6:104" ph="..." />
-            <marker date="1512071160307" expanded="true" signature="172:1526" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="614:760" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="815:918" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="979:1107" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1140:1272" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1182:1232" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1310:1523" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1402:1453" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -387,13 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <marker date="1512064432040" expanded="false" signature="6:152" ph="..." />
-            <marker date="1512064432040" expanded="true" signature="210:741" ph="{...}" />
-            <marker date="1512064432040" expanded="true" signature="378:552" ph="{...}" />
-            <marker date="1512064432040" expanded="true" signature="431:544" ph="{...}" />
-            <marker date="1512064432040" expanded="true" signature="625:739" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,15 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <marker date="1512065396248" expanded="true" signature="6:104" ph="..." />
-            <marker date="1512065396248" expanded="true" signature="170:1452" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="353:425" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="460:547" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="625:894" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="977:1253" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="1307:1449" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -418,21 +1078,20 @@
         <state relative-caret-position="750">
           <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
-            <marker date="1512073848607" expanded="false" signature="6:181" ph="..." />
-            <marker date="1512073848607" expanded="true" signature="257:3463" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="439:483" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="530:574" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="871:919" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="941:1743" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1055:1133" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1197:1327" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1376:1447" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1587:1726" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1770:2030" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2076:2608" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2214:2604" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2858:3461" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="3322:3458" ph="{...}" />
+            <marker date="1512079669692" expanded="false" signature="6:181" ph="..." />
+            <marker date="1512079669692" expanded="true" signature="439:483" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="530:574" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="871:919" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="941:1743" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1055:1133" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1197:1327" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1376:1447" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1587:1726" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1770:2030" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2076:2608" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2214:2604" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2858:3461" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="3322:3458" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -441,14 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding>
-            <marker date="1512070986898" expanded="false" signature="6:127" ph="..." />
-            <marker date="1512070986898" expanded="true" signature="176:1872" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="561:1770" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1227:1634" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1669:1765" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1796:1870" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,14 +1108,13 @@
         <state relative-caret-position="540">
           <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
-            <marker date="1512064432081" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512064432081" expanded="true" signature="146:1428" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="293:492" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="543:590" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="651:992" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="1019:1288" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="1319:1355" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="1389:1426" ph="{...}" />
+            <marker date="1512080723781" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512080723781" expanded="true" signature="146:1451" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="294:493" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="544:591" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="652:995" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="1022:1293" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="1295:1449" ph="/* private void EnableGvrView() ... */" />
           </folding>
         </state>
       </provider>
@@ -487,20 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <marker date="1512054129028" expanded="false" signature="6:116" ph="..." />
-            <marker date="1512054129028" expanded="true" signature="192:2044" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="469:523" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="526:573" ph="/* レベルアップに必要な金額を計算 ... */" />
-            <marker date="1512054129028" expanded="true" signature="621:703" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="959:1848" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1060:1405" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1144:1395" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1249:1372" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1406:1845" ph="/* else ... */" />
-            <marker date="1512054129028" expanded="true" signature="1900:2042" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1993:2024" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,16 +1145,15 @@
         <state relative-caret-position="495">
           <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
-            <marker date="1512072357297" expanded="false" signature="6:162" ph="..." />
-            <marker date="1512072357297" expanded="true" signature="196:1348" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="368:439" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="482:571" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="606:744" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="624:738" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="776:832" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="872:914" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="989:1031" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="1085:1346" ph="{...}" />
+            <marker date="1512079669693" expanded="false" signature="6:162" ph="..." />
+            <marker date="1512079669693" expanded="true" signature="368:439" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="482:571" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="606:744" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="624:738" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="776:832" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="872:914" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="989:1031" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="1085:1346" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -528,21 +1163,20 @@
         <state relative-caret-position="750">
           <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
-            <marker date="1512073848607" expanded="false" signature="6:181" ph="..." />
-            <marker date="1512073848607" expanded="true" signature="257:3463" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="439:483" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="530:574" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="871:919" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="941:1743" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1055:1133" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1197:1327" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1376:1447" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1587:1726" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1770:2030" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2076:2608" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2214:2604" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2858:3461" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="3322:3458" ph="{...}" />
+            <marker date="1512079669692" expanded="false" signature="6:181" ph="..." />
+            <marker date="1512079669692" expanded="true" signature="439:483" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="530:574" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="871:919" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="941:1743" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1055:1133" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1197:1327" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1376:1447" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1587:1726" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1770:2030" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2076:2608" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2214:2604" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2858:3461" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="3322:3458" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -551,14 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512070986898" expanded="false" signature="6:127" ph="..." />
-            <marker date="1512070986898" expanded="true" signature="176:1872" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="561:1770" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1227:1634" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1669:1765" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1796:1870" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,20 +1193,21 @@
         <state relative-caret-position="750">
           <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
           <folding>
-            <marker date="1512070986904" expanded="false" signature="6:151" ph="..." />
-            <marker date="1512070986904" expanded="true" signature="200:2573" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="554:604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="638:720" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="759:1928" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1078:1286" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1338:1617" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1475:1611" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1544:1604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1664:1742" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1855:1923" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1960:2039" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2069:2571" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2481:2567" ph="{...}" />
+            <marker date="1512080752367" expanded="false" signature="6:151" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="200:2583" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="554:604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="638:720" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="759:1938" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1078:1286" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1338:1617" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1475:1611" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1544:1604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1623:1754" ph="/* _vrViewButton.onClick.AddListener(() =&gt; ... */" />
+            <marker date="1512080752367" expanded="true" signature="1627:1754" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="1865:1933" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1970:2049" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2079:2581" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2491:2577" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -590,20 +1217,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512070986904" expanded="false" signature="6:151" ph="..." />
-            <marker date="1512070986904" expanded="true" signature="200:2573" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="554:604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="638:720" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="759:1928" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1078:1286" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1338:1617" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1475:1611" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1544:1604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1664:1742" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1855:1923" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1960:2039" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2069:2571" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2481:2567" ph="{...}" />
+            <marker date="1512080752367" expanded="false" signature="6:151" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="200:2583" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="554:604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="638:720" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="759:1938" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1078:1286" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1338:1617" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1475:1611" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1544:1604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1623:1754" ph="/* _vrViewButton.onClick.AddListener(() =&gt; ... */" />
+            <marker date="1512080752367" expanded="true" signature="1627:1754" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="1865:1933" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1970:2049" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2079:2581" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2491:2577" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -650,10 +1278,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DiscriptionPopupController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/TabController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/IPopupController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MasterDataManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/CommonPopupController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/BasePopupController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/VRUIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseCell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PopupManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/AvatarController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MainCameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <marker date="1512079669693" expanded="false" signature="6:162" ph="..." />
+            <marker date="1512079669693" expanded="true" signature="368:439" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="482:571" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="606:744" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="624:738" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="776:832" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="872:914" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="989:1031" ph="{...}" />
+            <marker date="1512079669693" expanded="true" signature="1085:1346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <marker date="1512079669692" expanded="false" signature="6:181" ph="..." />
+            <marker date="1512079669692" expanded="true" signature="439:483" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="530:574" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="871:919" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="941:1743" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1055:1133" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1197:1327" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1376:1447" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1587:1726" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="1770:2030" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2076:2608" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2214:2604" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="2858:3461" ph="{...}" />
+            <marker date="1512079669692" expanded="true" signature="3322:3458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <marker date="1512080723781" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512080723781" expanded="true" signature="146:1451" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="294:493" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="544:591" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="652:995" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="1022:1293" ph="{...}" />
+            <marker date="1512080723781" expanded="true" signature="1295:1449" ph="/* private void EnableGvrView() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <marker date="1512079669688" expanded="false" signature="6:71" ph="..." />
+            <marker date="1512079669688" expanded="true" signature="136:927" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="213:247" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="315:736" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="353:436" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="484:570" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="757:827" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="866:925" ph="{...}" />
+            <marker date="1512079669688" expanded="true" signature="895:922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="63" column="11" lean-forward="false" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+          <folding>
+            <marker date="1512080752367" expanded="false" signature="6:151" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="200:2583" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="554:604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="638:720" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="759:1938" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1078:1286" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1338:1617" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1475:1611" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1544:1604" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1623:1754" ph="/* _vrViewButton.onClick.AddListener(() =&gt; ... */" />
+            <marker date="1512080752367" expanded="true" signature="1627:1754" ph="..." />
+            <marker date="1512080752367" expanded="true" signature="1865:1933" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="1970:2049" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2079:2581" ph="{...}" />
+            <marker date="1512080752367" expanded="true" signature="2491:2577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/AvatarManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="413">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <marker date="1512057492595" expanded="false" signature="6:78" ph="..." />
             <marker date="1512057492595" expanded="true" signature="146:1366" ph="{...}" />
@@ -664,292 +1475,6 @@
             <marker date="1512057492595" expanded="true" signature="952:1116" ph="{...}" />
             <marker date="1512057492595" expanded="true" signature="1044:1113" ph="{...}" />
             <marker date="1512057492595" expanded="true" signature="1158:1364" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DiscriptionPopupController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <marker date="1512065275103" expanded="true" signature="6:126" ph="..." />
-            <marker date="1512065275103" expanded="true" signature="189:982" ph="{...}" />
-            <marker date="1512065275103" expanded="true" signature="435:565" ph="{...}" />
-            <marker date="1512065275103" expanded="true" signature="477:560" ph="{...}" />
-            <marker date="1512065275103" expanded="true" signature="638:980" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/TabController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511977505901" expanded="false" signature="6:100" ph="..." />
-            <marker date="1511977505901" expanded="true" signature="144:597" ph="{...}" />
-            <marker date="1511977505901" expanded="true" signature="243:595" ph="{...}" />
-            <marker date="1511977505901" expanded="true" signature="289:360" ph="{...}" />
-            <marker date="1511977505901" expanded="true" signature="407:478" ph="{...}" />
-            <marker date="1511977505901" expanded="true" signature="522:590" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/IPopupController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512057492598" expanded="false" signature="6:104" ph="..." />
-            <marker date="1512057492598" expanded="true" signature="140:258" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MasterDataManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512054129028" expanded="false" signature="6:116" ph="..." />
-            <marker date="1512054129028" expanded="true" signature="192:2044" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="469:523" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="526:573" ph="/* レベルアップに必要な金額を計算 ... */" />
-            <marker date="1512054129028" expanded="true" signature="621:703" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="959:1848" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1060:1405" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1144:1395" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1249:1372" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1406:1845" ph="/* else ... */" />
-            <marker date="1512054129028" expanded="true" signature="1900:2042" ph="{...}" />
-            <marker date="1512054129028" expanded="true" signature="1993:2024" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1512070641131" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512070641131" expanded="true" signature="127:594" ph="{...}" />
-            <marker date="1512070641131" expanded="true" signature="280:592" ph="{...}" />
-            <marker date="1512070641131" expanded="true" signature="377:589" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/CommonPopupController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512064432040" expanded="false" signature="6:152" ph="..." />
-            <marker date="1512064432040" expanded="true" signature="210:741" ph="{...}" />
-            <marker date="1512064432040" expanded="true" signature="378:552" ph="{...}" />
-            <marker date="1512064432040" expanded="true" signature="431:544" ph="{...}" />
-            <marker date="1512064432040" expanded="true" signature="625:739" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/BasePopupController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <marker date="1512071160307" expanded="false" signature="6:104" ph="..." />
-            <marker date="1512071160307" expanded="true" signature="172:1526" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="614:760" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="815:918" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="979:1107" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1140:1272" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1182:1232" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1310:1523" ph="{...}" />
-            <marker date="1512071160307" expanded="true" signature="1402:1453" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/VRUIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512054129036" expanded="false" signature="6:100" ph="..." />
-            <marker date="1512054129036" expanded="true" signature="142:413" ph="{...}" />
-            <marker date="1512054129036" expanded="true" signature="246:349" ph="{...}" />
-            <marker date="1512054129036" expanded="true" signature="293:341" ph="{...}" />
-            <marker date="1512054129036" expanded="true" signature="404:411" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorParchaseCell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-          <folding>
-            <marker date="1512070986898" expanded="false" signature="6:127" ph="..." />
-            <marker date="1512070986898" expanded="true" signature="176:1872" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="561:1770" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1227:1634" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1669:1765" ph="{...}" />
-            <marker date="1512070986898" expanded="true" signature="1796:1870" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PopupManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1512065396248" expanded="true" signature="6:104" ph="..." />
-            <marker date="1512065396248" expanded="true" signature="170:1452" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="353:425" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="460:547" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="625:894" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="977:1253" ph="{...}" />
-            <marker date="1512065396248" expanded="true" signature="1307:1449" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/DeviceManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <marker date="1512064432081" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512064432081" expanded="true" signature="146:1428" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="293:492" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="543:590" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="651:992" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="1019:1288" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="1319:1355" ph="{...}" />
-            <marker date="1512064432081" expanded="true" signature="1389:1426" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/AvatarController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding>
-            <marker date="1512054129019" expanded="true" signature="6:100" ph="..." />
-            <marker date="1512054129019" expanded="true" signature="147:1237" ph="{...}" />
-            <marker date="1512054129019" expanded="true" signature="534:637" ph="{...}" />
-            <marker date="1512054129019" expanded="true" signature="665:735" ph="{...}" />
-            <marker date="1512054129019" expanded="true" signature="762:804" ph="{...}" />
-            <marker date="1512054129019" expanded="true" signature="853:947" ph="{...}" />
-            <marker date="1512054129019" expanded="true" signature="1002:1235" ph="{...}" />
-            <marker date="1512054129019" expanded="true" signature="1175:1232" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MainCameraController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <marker date="1512068548150" expanded="true" signature="6:104" ph="..." />
-            <marker date="1512068548150" expanded="true" signature="189:1404" ph="{...}" />
-            <marker date="1512068548150" expanded="true" signature="503:616" ph="{...}" />
-            <marker date="1512068548150" expanded="true" signature="644:702" ph="{...}" />
-            <marker date="1512068548150" expanded="true" signature="726:760" ph="{...}" />
-            <marker date="1512068548150" expanded="true" signature="785:1401" ph="{...}" />
-            <marker date="1512068548150" expanded="true" signature="1296:1398" ph="{...}" />
-            <marker date="1512068548150" expanded="true" signature="1333:1394" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/MentorTrainingCell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding>
-            <marker date="1512070986904" expanded="false" signature="6:151" ph="..." />
-            <marker date="1512070986904" expanded="true" signature="200:2573" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="554:604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="638:720" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="759:1928" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1078:1286" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1338:1617" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1475:1611" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1544:1604" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1664:1742" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1855:1923" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="1960:2039" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2069:2571" ph="{...}" />
-            <marker date="1512070986904" expanded="true" signature="2481:2567" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <marker date="1512072357297" expanded="false" signature="6:162" ph="..." />
-            <marker date="1512072357297" expanded="true" signature="196:1348" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="368:439" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="482:571" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="606:744" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="624:738" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="776:832" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="872:914" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="989:1031" ph="{...}" />
-            <marker date="1512072357297" expanded="true" signature="1085:1346" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding>
-            <marker date="1512072506124" expanded="true" signature="6:71" ph="..." />
-            <marker date="1512072506124" expanded="true" signature="136:927" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="213:247" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="315:736" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="353:436" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="484:570" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="757:827" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="866:925" ph="{...}" />
-            <marker date="1512072506124" expanded="true" signature="895:922" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mentor Collection/Scripts/PortrateUIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding>
-            <marker date="1512073848607" expanded="false" signature="6:181" ph="..." />
-            <marker date="1512073848607" expanded="true" signature="257:3463" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="439:483" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="530:574" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="871:919" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="941:1743" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1055:1133" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1197:1327" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1376:1447" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1587:1726" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="1770:2030" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2076:2608" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2214:2604" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="2858:3461" ph="{...}" />
-            <marker date="1512073848607" expanded="true" signature="3322:3458" ph="{...}" />
           </folding>
         </state>
       </provider>
